@@ -91,7 +91,7 @@ public class TouchView extends ImageView {
 
     public TouchView(Context context, AttributeSet attrs){
         super(context, attrs);
-        p.setColor(getResources().getColor(R.color.actionbar));
+        // p.setColor(getResources().getColor(R.color.actionbar));
         p.setStyle(Paint.Style.FILL);
     }
 

@@ -82,8 +82,8 @@ public class RotationGestureDetector {
         return angle;
     }
 
-    public static interface OnRotationGestureListener {
-        public void OnRotation(RotationGestureDetector rotationDetector);
+    public interface OnRotationGestureListener {
+        void OnRotation(RotationGestureDetector rotationDetector);
     }
 
     public float getMidX(){
