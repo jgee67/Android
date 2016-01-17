@@ -105,6 +105,8 @@ public class TouchView extends ImageView {
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
         setImageMatrix(mtx);
-        canvas.drawBitmap(img, mtx, null);
+        if(img != null){
+        	canvas.drawBitmap(img, mtx, null);
+        }
     }
 }
